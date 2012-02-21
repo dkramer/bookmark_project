@@ -1,6 +1,6 @@
 project one
   use two commands
     create controller
-      rails generate controller Bookmark
+      rails generate controller Bookmark new create index
     create model
       rails generate model Bookmark URL:string name:string date_saved:date
