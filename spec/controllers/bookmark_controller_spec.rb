@@ -31,14 +31,4 @@ describe BookmarksController do
     end
   end
 
-  describe "POST create" do
-    describe "with valid params" do
-      it "creates a new Bookmark" do
-        expect {
-          post :create, :bookmark => valid_attributes
-        }.to change(Bookmark, :count).by(1)
-      end
-    end
-  end
-
 end
